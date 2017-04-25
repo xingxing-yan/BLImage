@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/main_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="选择图片" />
+
+    <!--<FrameLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent">-->
+
+        <!--&lt;!&ndash;<android.support.v4.view.ViewPager&ndash;&gt;-->
+            <!--&lt;!&ndash;android:id="@+id/main_view_pager"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_gravity="center" />&ndash;&gt;-->
+
+       <!---->
+    <!--</FrameLayout>-->
+    <cn.bingoogolapple.bgabanner.BGABanner
+        android:id="@+id/main_view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:banner_pointAutoPlayAble="false"
+        app:banner_pointContainerBackground="@android:color/transparent"
+        app:banner_indicatorGravity="right"
+        app:banner_isNumberIndicator="true"
+        app:banner_numberIndicatorTextColor="@color/colorPrimary"
+        app:banner_numberIndicatorTextSize="18sp">
+
+    </cn.bingoogolapple.bgabanner.BGABanner>
+
+</LinearLayout>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@android:color/black">
+
+        <com.yyx.beautifylib.view.CustomViewPager
+            android:id="@+id/beautify_image_viewpager"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+    </FrameLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/content_container"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:paddingBottom="3dip"
+        android:paddingTop="3dip">
+
+        <com.muzhi.camerasdk.library.views.HorizontalListView
+            android:id="@+id/effect_listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true" />
+
+
+        <com.muzhi.camerasdk.library.views.HorizontalListView
+            android:id="@+id/sticker_listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/add_tag_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="添加标签"
+            android:textColor="@android:color/white"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+
+    <!--<LinearLayout-->
+        <!--android:id="@+id/tab_item_container"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:layout_gravity="center_vertical"-->
+        <!--android:background="#DCD9D9"-->
+        <!--android:gravity="center_vertical"-->
+        <!--android:paddingTop="3dip">-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/txt_effect"-->
+            <!--style="@style/camerasdk_tab_text"-->
+            <!--android:text="@string/camerasdk_tab_filter" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/txt_sticker"-->
+            <!--style="@style/camerasdk_tab_text"-->
+            <!--android:text="@string/camerasdk_tab_sticker" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/txt_tag"-->
+            <!--style="@style/camerasdk_tab_text"-->
+            <!--android:text="@string/camerasdk_tab_tag" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/txt_cropper"-->
+            <!--style="@style/camerasdk_tab_text"-->
+            <!--android:text="@string/camerasdk_tab_cropper" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/txt_graffiti"-->
+            <!--style="@style/camerasdk_tab_text"-->
+            <!--android:text="@string/camerasdk_tab_graffiti" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/txt_enhance"-->
+            <!--style="@style/camerasdk_tab_text"-->
+            <!--android:text="@string/camerasdk_tab_enhance" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/txt_mosaic"-->
+            <!--style="@style/camerasdk_tab_text"-->
+            <!--android:text="@string/camerasdk_mosaic_tag" />-->
+
+
+    <!--</LinearLayout>-->
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#DCD9D9"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txt_effect"
+                style="@style/camerasdk_tab_text"
+                android:text="@string/camerasdk_tab_filter" />
+
+            <TextView
+                android:id="@+id/txt_sticker"
+                style="@style/camerasdk_tab_text"
+                android:text="@string/camerasdk_tab_sticker" />
+
+            <TextView
+                android:id="@+id/txt_tag"
+                style="@style/camerasdk_tab_text"
+                android:text="@string/camerasdk_tab_tag" />
+
+            <TextView
+                android:id="@+id/txt_cropper"
+                style="@style/camerasdk_tab_text"
+                android:text="@string/camerasdk_tab_cropper" />
+
+            <TextView
+                android:id="@+id/txt_graffiti"
+                style="@style/camerasdk_tab_text"
+                android:text="@string/camerasdk_tab_graffiti" />
+
+            <TextView
+                android:id="@+id/txt_enhance"
+                style="@style/camerasdk_tab_text"
+                android:text="@string/camerasdk_tab_enhance" />
+
+            <TextView
+                android:id="@+id/txt_mosaic"
+                style="@style/camerasdk_tab_text"
+                android:text="@string/camerasdk_mosaic_tag" />
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+
+</LinearLayout>

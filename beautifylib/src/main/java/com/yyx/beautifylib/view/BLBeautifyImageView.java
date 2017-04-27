@@ -122,6 +122,17 @@ public class BLBeautifyImageView extends FrameLayout {
         return getFilterImage();
     }
 
+//    public void savePic(){
+//        String folderName = BLCommonUtils.getApplicationName(mContext);
+//        String fileName = System.currentTimeMillis() + ".jpg";
+//        mGpuImageView.saveToPictures(folderName, fileName, new GPUImageView.OnPictureSavedListener() {
+//            @Override
+//            public void onPictureSaved(Uri uri) {
+//                EventBus.getDefault().post(new SaveImageEvent(uri.getPath()));
+//            }
+//        });
+//    }
+
     /**
      * 合并图片
      *

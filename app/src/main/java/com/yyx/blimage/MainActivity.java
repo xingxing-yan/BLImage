@@ -83,7 +83,7 @@ public class MainActivity extends AppCompatActivity implements EasyPermissions.P
 
             BLPickerParam.startActivity(MainActivity.this);
         } else {
-            EasyPermissions.requestPermissions(this, "图片选择需要以下权限:\n\n1.访问设备上的照片", REQUEST_CODE_PERMISSION, perms);
+            EasyPermissions.requestPermissions(this, "图片选择需要以下权限:\n\n1.访问读写权限", REQUEST_CODE_PERMISSION, perms);
         }
     }
 

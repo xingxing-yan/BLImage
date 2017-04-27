@@ -89,6 +89,7 @@ public class BLBeautifyImageActivity extends BLToolBarActivity implements View.O
     private TagViewGroup.OnTagGroupClickListener mTagGroupClickListener;
 
     private MergeImageTask mMergeTask;
+//    private List<String> mMergeList = new ArrayList<>();
 
     @Override
     protected int getContentLayoutId() {
@@ -521,6 +522,7 @@ public class BLBeautifyImageActivity extends BLToolBarActivity implements View.O
             for (Fragment f : fragments) {
                 if (f instanceof BLBeautifyFragment) {
                     BLBeautifyFragment fragment = (BLBeautifyFragment) f;
+                    fragment.complete();
                     String path = fragment.complete();
 
                     if (path != null && !path.equals("")) {

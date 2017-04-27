@@ -89,7 +89,7 @@ public class BLScrawlActivity extends BLToolBarActivity implements View.OnClickL
 
     @Override
     protected void otherLogic() {
-        mPaintColor = mInstance.getResources().getColor(R.color.colorPrimary);
+        mPaintColor = BLConfigManager.getPrimaryColor();
         mParam = getIntent().getParcelableExtra(BLScrawlParam.KEY);
         mSource = BLScrawlParam.bitmap;
         mScrawlTools = new ScrawlTools(mInstance, mDrawingView, mSource);

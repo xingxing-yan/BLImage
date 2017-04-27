@@ -5,7 +5,21 @@ Android中美化图片的库。功能包括滤镜，贴纸，标签，裁剪，�
 ![1](https://github.com/xingxing-yan/BLImage/blob/master/gif/bl1.gif)![2](https://github.com/xingxing-yan/BLImage/blob/master/gif/bl2.gif)![3](https://github.com/xingxing-yan/BLImage/blob/master/gif/bl3.gif)
 
 # 添加依赖：
-
+在project的build.gradle中添加：
+```
+	allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+```
+在项目的build.gradle中添加：
+```
+	dependencies {
+	    compile 'com.github.xingxing-yan:BLImage:1.0.0'
+	}
+```
 
 # 功能介绍：
 1. 添加滤镜

@@ -2,7 +2,7 @@
 Android中美化图片的库。功能包括滤镜，贴纸，标签，裁剪，涂鸦，亮度，饱和度，对比度，马赛克等功能
 
 # 效果图
-
+![1](https://github.com/xingxing-yan/BLImage/blob/master/gif/bl1.gif)![2](https://github.com/xingxing-yan/BLImage/blob/master/gif/bl2.gif)![3](https://github.com/xingxing-yan/BLImage/blob/master/gif/bl3.gif)
 
 # 添加依赖：
 
@@ -58,8 +58,8 @@ BLConfigManager.register(new BLConfig())
 
 # Thanks
 感谢以下开源库的帮助
-https://github.com/Yalantis/uCrop
-https://github.com/shellljx/TagViewGroup
-https://github.com/zxfnicholas/CameraSDK
-https://github.com/wuapnjie/StickerView
-https://github.com/jarlen/PhotoEdit
+![https://github.com/Yalantis/uCrop](https://github.com/Yalantis/uCrop)
+![https://github.com/shellljx/TagViewGroup](https://github.com/shellljx/TagViewGroup)
+![https://github.com/zxfnicholas/CameraSDK](https://github.com/zxfnicholas/CameraSDK)
+![https://github.com/wuapnjie/StickerView](https://github.com/wuapnjie/StickerView)
+![https://github.com/jarlen/PhotoEdit](https://github.com/jarlen/PhotoEdit)

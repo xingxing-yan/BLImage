@@ -59,7 +59,11 @@ BLConfigManager.register(new BLConfig())
 # Thanks
 感谢以下开源库的帮助
 ![https://github.com/Yalantis/uCrop](https://github.com/Yalantis/uCrop)
+
 ![https://github.com/shellljx/TagViewGroup](https://github.com/shellljx/TagViewGroup)
+
 ![https://github.com/zxfnicholas/CameraSDK](https://github.com/zxfnicholas/CameraSDK)
+
 ![https://github.com/wuapnjie/StickerView](https://github.com/wuapnjie/StickerView)
+
 ![https://github.com/jarlen/PhotoEdit](https://github.com/jarlen/PhotoEdit)
